@@ -1,0 +1,2 @@
+C:/Users/AMJILT/Documents/GitHub/diplom/frontend/android/app/.cxx/RelWithDebInfo/2j1f6er2/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/AMJILT/Documents/GitHub/diplom/frontend/android/app/.cxx/RelWithDebInfo/2j1f6er2/x86_64/CMakeFiles/rebuild_cache.dir

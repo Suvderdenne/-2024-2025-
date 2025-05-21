@@ -1,0 +1,52 @@
+# Flutter/Dart/Pub related
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub-cache/
+frontend/build/
+frontend/flutter_*.png
+
+# Android
+frontend/android/.gradle/
+frontend/android/captures/
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+frontend/*.apk
+frontend/*.ap_
+frontend/*.aab
+frontend/*.jks
+frontend/*.keystore
+
+# iOS
+frontend/ios/Flutter/.last_build_id
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Runner.xcworkspace/
+frontend/ios/build/
+frontend/ios/Flutter/Generated.xcconfig
+frontend/Flutter/ephemeral/
+
+# Xcode
+frontend/*.xcworkspace
+frontend/*.xcuserstate
+frontend/*.xcuserdatad
+frontend/*.moved-aside
+frontend/DerivedData/
+frontend/.idea/
+
+# IntelliJ related
+frontend/*.iml
+frontend/*.ipr
+frontend/*.iws
+frontend/.idea/
+
+# Others
+frontend/*.log
+frontend/*.tmp
+frontend/*.lock
+
+# Firebase/Keys (if applicable)
+frontend/*.env
+frontend/.env.*
+frontend/google-services.json
+frontend/GoogleService-Info.plist
