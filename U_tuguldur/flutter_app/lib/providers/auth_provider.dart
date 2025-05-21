@@ -23,7 +23,7 @@ class AuthProvider with ChangeNotifier {
   Future<void> login(String username, String password) async {
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.4.185:8000/api/users/login/'),
+        Uri.parse('http://192.168.4.59:8000/api/users/login/'),
         headers: {'Content-Type': 'application/json'},
         body: json.encode({'username': username, 'password': password}),
       );
@@ -54,7 +54,7 @@ class AuthProvider with ChangeNotifier {
   ) async {
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.4.185:8000/api/users/register/'),
+        Uri.parse('http://192.168.4.59:8000/api/users/register/'),
         headers: {'Content-Type': 'application/json'},
         body: json.encode({'username': username, 'password': password}),
       );

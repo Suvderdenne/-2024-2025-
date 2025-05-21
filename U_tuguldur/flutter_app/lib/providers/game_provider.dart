@@ -51,7 +51,7 @@ class GameProvider with ChangeNotifier {
       }
 
       final response = await http.get(
-        Uri.parse('http://192.168.4.185:8000/api/levels/$level/'),
+        Uri.parse('http://192.168.4.59:8000/api/levels/$level/'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Token $token', // Token-оо оруулж байгаа эсэх
@@ -146,7 +146,7 @@ class GameProvider with ChangeNotifier {
 
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.4.185:8000/api/users/complete_level/'),
+        Uri.parse('http://192.168.4.59:8000/api/users/complete_level/'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Token $token',
@@ -175,7 +175,7 @@ class GameProvider with ChangeNotifier {
     // Deduct coins and update on server
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.4.185:8000/api/users/use_hint/'),
+        Uri.parse('http://192.168.4.59:8000/api/users/use_hint/'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Token ${authProvider.token}',
