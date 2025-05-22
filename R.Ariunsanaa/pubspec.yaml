@@ -1,0 +1,9 @@
+flutter:
+  assets:
+    - images/duck.png
+    - images/ufo.png
+    - images/orange.png
+    - images/brain.png
+    - images/giraffe.png
+    - images/sonic.png
+    // ... other existing assets ... 
