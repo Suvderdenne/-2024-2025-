@@ -1,0 +1,45 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "8c92a804-5756-420c-8f89-469cc774bc1f",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1744336343767"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "9b10023d-9052-47d6-ae9d-f3360328aa39",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1747889245641"
+        }
+      },
+      "favorite": {
+        "name": "Eldos",
+        "color": "color1"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}

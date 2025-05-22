@@ -1,0 +1,12 @@
+name: eldos
+description: App Description
+ignoreFiles: .git node_modules
+modules:
+  - name: template
+    language: nodejs16.x
+    web: express
+    description: Module description
+    functions:
+      - name: entry
+        entry: entry.js
+        description: the entry point for the function
